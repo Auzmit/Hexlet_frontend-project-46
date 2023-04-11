@@ -1,0 +1,18 @@
+env:
+  es2021: true
+  node: true
+extends: airbnb-base
+overrides: []
+parserOptions:
+  ecmaVersion: latest
+  sourceType: module
+# jest not installed yet:
+plugins: jest
+rules:
+  import/extensions: 
+    - error
+    - ignorePackages
+    - js: always
+  # camelcase: off
+  # no-console: 0
+  no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
