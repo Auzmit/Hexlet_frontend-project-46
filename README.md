@@ -2,7 +2,8 @@
 [![Actions Status](https://github.com/Auzmit/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/Auzmit/frontend-project-46/actions)
 
 ## Codeclimate
-
+[![Maintainability](https://api.codeclimate.com/v1/badges/b8e2e6a671a0bf9a44c7/maintainability)](https://codeclimate.com/github/Auzmit/frontend-project-46/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/b8e2e6a671a0bf9a44c7/test_coverage)](https://codeclimate.com/github/Auzmit/frontend-project-46/test_coverage)
 
 ## Setup
 
