@@ -1,0 +1,5 @@
+
+1) "npm link" isn't working
+  (besit uje)
+2) "gendiff -h" isn't working instead of him: "bin/gendiff.js -h"
+  (I checked evrth, but still IT DOES NOT WORK!! @#$%^)
