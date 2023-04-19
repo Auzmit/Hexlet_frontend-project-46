@@ -6,7 +6,6 @@ overrides: []
 parserOptions:
   ecmaVersion: latest
   sourceType: module
-# jest not installed yet:
 plugins:
   - jest
 rules:
@@ -14,6 +13,8 @@ rules:
     - error
     - ignorePackages
     - js: always
-  # camelcase: off
-  # no-console: 0
   no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
+  # My rules:
+  # camelcase: off
+  no-console: 0
+  prefer-template: 0

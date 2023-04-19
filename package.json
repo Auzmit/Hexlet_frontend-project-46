@@ -13,7 +13,8 @@
   "author": "Auzmit",
   "license": "ISC",
   "dependencies": {
-    "commander": "^10.0.0"
+    "commander": "^10.0.0",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.21.4",
@@ -23,7 +24,6 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jest": "^27.2.1",
-    "jest": "^29.5.0",
-    "lodash": "^4.17.21"
+    "jest": "^29.5.0"
   }
 }
