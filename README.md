@@ -8,20 +8,17 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/b8e2e6a671a0bf9a44c7/test_coverage)](https://codeclimate.com/github/Auzmit/frontend-project-46/test_coverage)
 
 ## Setup
-
 ```bash
 make install
 ```
 
 ## Run tests
-
 ```bash
 make test
 ```
-
+  
 ### testing step 3
 [![asciicast](https://asciinema.org/a/580087.svg)](https://asciinema.org/a/580087)
-
-
+  
 ## My Hexlet profile (click on picture)
 [![My_avatar](https://cdn2.hexlet.io/store/derivatives/c9032602e2a18fee8970ff6f32f14c1f/fill_webp-290-290.webp)](https://ru.hexlet.io/u/auzmit)
