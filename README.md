@@ -4,7 +4,7 @@
 (also check PROBLEMS.TXT pls)
 
 ### Github actions (test on push)
-[![Actions Status](https://github.com/Auzmit/frontend-project-46/actions)](https://github.com/Auzmit/frontend-project-46/actions/workflows/test-on-push.yml/badge.svg)
+[![Actions Status](https://github.com/Auzmit/frontend-project-46/actions/workflows/test-on-push.yml/badge.svg)](https://github.com/Auzmit/frontend-project-46/actions/workflows/test-on-push.yml)
 
 ## Codeclimate
 [![Maintainability](https://api.codeclimate.com/v1/badges/b8e2e6a671a0bf9a44c7/maintainability)](https://codeclimate.com/github/Auzmit/frontend-project-46/maintainability)
