@@ -1,18 +1,14 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Auzmit/frontend-project-46/workflows/hexlet-check/badge.svg)]
-(https://github.com/Auzmit/frontend-project-46/actions)
+[![Actions Status](https://github.com/Auzmit/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/Auzmit/frontend-project-46/actions)
 
 (also check PROBLEMS.TXT pls)
 
 ### Github actions (test on push)
-[![Actions Status](https://github.com/Auzmit/frontend-project-46/actions/workflows/test-on-push.yml)]
-(https://github.com/Auzmit/frontend-project-46/actions/workflows/test-on-push.yml/badge.svg)
+[![Actions Status](https://github.com/Auzmit/frontend-project-46/actions/workflows/test-on-push.yml)](https://github.com/Auzmit/frontend-project-46/actions/workflows/test-on-push.yml/badge.svg)
 
 ## Codeclimate
-[![Maintainability](https://api.codeclimate.com/v1/badges/b8e2e6a671a0bf9a44c7/maintainability)]
-(https://codeclimate.com/github/Auzmit/frontend-project-46/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/b8e2e6a671a0bf9a44c7/test_coverage)]
-(https://codeclimate.com/github/Auzmit/frontend-project-46/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/b8e2e6a671a0bf9a44c7/maintainability)](https://codeclimate.com/github/Auzmit/frontend-project-46/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/b8e2e6a671a0bf9a44c7/test_coverage)](https://codeclimate.com/github/Auzmit/frontend-project-46/test_coverage)
 
 ## Setup
 ```bash
