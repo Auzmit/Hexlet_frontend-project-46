@@ -11,10 +11,13 @@ publish:
 	npm publish --dry-run
 
 test:
-	bin/gendiff.js __fixtures__/file1.json __fixtures__/file2.json
+	npx jest
 
-# test:
-# npx jest
+test_w:
+	npx jest --watch
+	
+my_test:
+	bin/gendiff.js __fixtures__/file1.json __fixtures__/file2.json
 	
 # Если, например, существует и задача "test" и файл "test",
 # то нужно вписать "test" в ".PHONY" , чтобы цель выполнялась
