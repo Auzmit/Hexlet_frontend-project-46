@@ -1,10 +1,9 @@
 import _ from 'lodash';
-import fs from 'fs';
 import path from 'path';
-import stylishedDiff from './stylish.js';
+import stylishingDiff from './stylish.js';
+import getData from './parsers.js';
 
 function buildPath(relativePath) { return (path.resolve(process.cwd(), relativePath)); }
-function getData(absolutePath) { return (JSON.parse(fs.readFileSync(absolutePath), 'utf-8')); }
 
 export default function gendiff(path1, path2) {
   const data1 = getData(buildPath(path1));
@@ -26,5 +25,5 @@ export default function gendiff(path1, path2) {
     return { key, type: 'unchanged', value: data2[key] };
   });
 
-  return stylishedDiff(diff);
+  return stylishingDiff(diff);
 }

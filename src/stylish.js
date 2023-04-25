@@ -1,4 +1,4 @@
-export default function stylishedDiff(diff) {
+export default function stylishingDiff(diff) {
   const stylishedDiff = diff.reduce((acc, elem) => {
     const { key } = elem;
     const { value } = elem;

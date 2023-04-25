@@ -18,3 +18,5 @@ rules:
   # camelcase: off
   no-console: 0
   prefer-template: 0
+  consistent-return: 0
+  import/no-extraneous-dependencies: 0
