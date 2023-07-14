@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import path from 'path';
-import stylishingDiff from './stylish.js';
+import fs from 'fs'; /* for me */
+// import stylishingDiff from './stylish.js';
 import getData from './parsers.js';
 
 function buildPath(relativePath) { return (path.resolve(process.cwd(), relativePath)); }
@@ -8,14 +9,23 @@ function buildPath(relativePath) { return (path.resolve(process.cwd(), relativeP
 export default function gendiff(path1, path2) {
   const data1 = getData(buildPath(path1));
   const data2 = getData(buildPath(path2));
-
-  const keys = _.union(Object.keys(data1), Object.keys(data2));
+  const mergedData = _.merge(data1, data2);
+  const sortedMergedData = () => {
+    // let sortedResult = {};
+    mergedData.forEach((entry) => {
+      console.log(entry);
+    });
+    return data1;
+  };
+  // let result = '';
+  console.log(sortedMergedData);
+  // console.log(mergeData);
+  fs.writeFileSync('mergedData.json', JSON.stringify(mergedData), 'utf-8');
+}
+/*   const keys = _.union(Object.keys(data1), Object.keys(data2));
   const sortedKeys = _.sortBy(keys);
 
-  const diff = sortedKeys.map(const typing = (key) => {
-    /* if (typeof key === 'object') {
-    } */
-
+  const diff = sortedKeys.map((key) => {
     if (!Object.hasOwn(data1, key) && Object.hasOwn(data2, key)) {
       return { key, type: 'added', value: data2[key] };
     }
@@ -29,9 +39,9 @@ export default function gendiff(path1, path2) {
   });
 
   return stylishingDiff(diff);
-}
+} */
 
-  /* return [...Object.keys(data1), ...Object.keys(data2)].reduce((acc, key) => {
+/* return [...Object.keys(data1), ...Object.keys(data2)].reduce((acc, key) => {
     if (!_.has(data2, key)) {
       acc[`- ${key}`] = data1[key];
     } else if (!_.has(data1, key)) {
