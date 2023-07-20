@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-const stylish = (currentKey, currentValue, depth) => {
+function stylish(currentKey, currentValue, depth) {
   if (!_.isObject(currentValue)) {
     return `${currentKey}: ${currentValue}`;
   }
@@ -9,7 +9,7 @@ const stylish = (currentKey, currentValue, depth) => {
   const lines = Object.entries(currentValue).flatMap(([key, ent]) => `  ${stylish(key, ent, depth + 2)}`);
 
   return `${currentKey}: {\n${indentBefore}${lines.join(`\n${indentBefore}`)}\n${bracketIndent}}`;
-};
+}
 
 export default function stylishFormatter(tree) {
   function iter(objects, depth) {

@@ -4,8 +4,6 @@ export default function plainFormatter(tree) {
   function iter(objects, address) {
     const stylishedObjects = objects.flatMap((object) => {
       const { name, value, status } = object;
-      /* console.log(object);
-      console.log('\n'); */
       const outputValue = (currentValue) => {
         if (_.isObject(currentValue)) { return '[complex value]'; }
         if (_.isString(currentValue)) { return `'${currentValue}'`; }
