@@ -2,7 +2,7 @@
 
 import { expect, test } from '@jest/globals';
 import fs from 'fs';
-import gendiff from '../src/index.js';
+import gendiff from '../src/gendiff.js';
 
 const stylishExpect = fs.readFileSync('__tests__/stylishExpect.txt', 'utf-8');
 test('test1 - Stylish_json', () => {
