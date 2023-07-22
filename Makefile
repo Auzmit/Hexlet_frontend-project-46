@@ -19,8 +19,6 @@ test_w:
 my_test:
 	bin/gendiff.js __fixtures__/file1.json __fixtures__/file2.json
 
-
-
 my_test_plain:
 	bin/gendiff.js __fixtures__/plainObj_file1.json __fixtures__/plainObj_file2.json
 	
