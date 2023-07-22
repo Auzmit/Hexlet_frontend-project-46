@@ -2,5 +2,5 @@ node_modules
 *.log
 .DS_Store
 coverage
-
 My_*
+my_*
