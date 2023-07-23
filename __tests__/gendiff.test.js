@@ -5,13 +5,13 @@ import fs from 'fs';
 import gendiff from '../src/gendiff.js';
 
 const stylishExpect = fs.readFileSync('__tests__/stylishExpect.txt', 'utf-8');
-test('test1 - Stylish_json', () => {
+test('test1 - Default_json', () => {
   expect(gendiff('__fixtures__/file1.json', '__fixtures__/file2.json')).toEqual(stylishExpect);
 });
-test('test2 - Stylish_yml', () => {
+test('test2 - Default_yml', () => {
   expect(gendiff('__fixtures__/file1.yml', '__fixtures__/file2.yml')).toEqual(stylishExpect);
 });
-test('test3 - Stylish_yaml', () => {
+test('test3 - Default_yaml', () => {
   expect(gendiff('__fixtures__/file1.yaml', '__fixtures__/file2.yaml')).toEqual(stylishExpect);
 });
 test('test4 - Stylish_json', () => {
