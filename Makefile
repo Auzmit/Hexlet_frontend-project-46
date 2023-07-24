@@ -11,7 +11,7 @@ publish:
 	npm publish --dry-run
 
 test:
-	npx jest
+	npx jest --coverage
 
 test_w:
 	npx jest --watch
