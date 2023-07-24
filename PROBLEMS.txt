@@ -3,6 +3,11 @@
 
 2) "gendiff -h" isn't working. Instead of him: "bin/gendiff.js -h"
    (I checked evrth, but still IT DOES NOT WORK!! @#$%^)
-   
-3) MB NOT PROBLEM:
+
+3) If we determine requering version of the node.js by adding this string in package.json:
+      "node": "18.4.0"
+   we will anyway fail the hexlet-check and one of the problems will be:
+      npm ERR! Node.js v18.4.0
+
+4) MB NOT PROBLEM:
    I love functions so much that I use them wherever others use constants, cause FUNCTIONS ARE FUNCTIONS!
